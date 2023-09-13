@@ -1,5 +1,7 @@
 import requests
-import os
+
 print(requests.__version__)
 
-os.system("curl -i www.google.com")
+r = requests.get("https://raw.githubusercontent.com/Wanlin-Zheng/CMPUT404F2023/main/lab1.py")
+print(r.text)
+
