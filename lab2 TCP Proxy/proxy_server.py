@@ -70,4 +70,5 @@ def start_threaded_server():
             thread = Thread(target=handle_connection, args=(conn, addr))
             thread.run()
 
-start_server()
+#start_server()
+start_threaded_server()
