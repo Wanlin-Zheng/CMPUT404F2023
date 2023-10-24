@@ -1,0 +1,23 @@
+Question 0: What is the URL of your python flask_restfull code on github???
+
+Question 1: How are Flask and Django different? What does Django provide for you that Flask does not?
+Flask offers more control, flexibility, and a simpler learning curve, making it suitable for small-scale projects. Django, being a full stack framework, is perfect for large-scale applications. Django has more built in features like admin login, while flask requires thrid part exttensions.
+
+Question 2: What does REST stand for? When I say something is RESTful, what does that mean?
+Representational State Transfer (REST) is a software architecture that imposes conditions on how an API should work. Restful apis break down transactions into smaller modules using existing http methedologies.
+
+Question 3: What does CRUD stand for? For each letter in CRUD, give the associated HTTP method.
+CRUD is the acronym for CREATE, READ, UPDATE and DELETE. These terms describe the four essential operations for creating and managing persistent data elements. For HTTP it's PUT, GET, POST, DELETE.
+
+Question 4: What do HTTP 1XX Status Codes mean? HTTP 2xx? HTTP 3xx? HTTP 4xx? HTTP 5xx?
+Informational responses (1xx)
+Successful responses (2xx)
+Redirection messages (3xx)
+Client error responses (4xx)
+Server error responses (5xx)
+
+
+Question 5: What is an XSS attack? Provide one way a site can be vulneratble to an XSS attack.
+Cross-site scripting (XSS) is an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website. A vulnerable website would then return malicious javascript to users. To prevent, encode data on output, validate input on arrival.
+
+Question 6: What does CORS stand for? What situation in web application development will you need to implement CORS protection?

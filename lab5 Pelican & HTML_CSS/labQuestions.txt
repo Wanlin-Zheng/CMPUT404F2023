@@ -1,0 +1,6 @@
+Question 1: What are some of the benefits of using a static site generator? What are some disadvantages?
+
+Theres no dynamic functionality and less security risks as you're just presenting information. Static webpages can be more of a hassle to update. Using a generator allows for easier template creation and it may already be organized for you. However you might have less creative range than creating a website from scratch.
+Question 2: What is the link to your GitHub pages hosted static site?
+
+https://github.com/Wanlin-Zheng/wanlin-zheng.github.io.git
